@@ -21,9 +21,9 @@ Each ligand folder should have around 10 copies (10 replica simulations)
 
 ## PDB files
 We provide the following PDB files for each system:
-- Prepared amber system as 'system.pdb'
+- Prepared amber system as 'system.pdb' (one per ligand, in each folder)
 - Just the protein (used in tleap) as 'protein.pdb'
-- Reference after equilbriation (used as reference for ligand RMSD calculation) as 'ref.pdb'
+- Reference after equilbriation (used as reference for ligand RMSD calculation) as 'ref.pdb' (one per ligand, in each folder)
 - The plumed file used for the metadynamics simulation is common to all, and the template can be accessed at `amber_MD_template/plumed_template.dat` in the repo root
 
 ## hit_data_mol2.spc
