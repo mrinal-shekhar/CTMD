@@ -1,0 +1,6 @@
+parm system.prmtop # Load your topology
+trajin 06_Calpha.rst   # Load your restart file# Strip water and ions (modify mask if your ions are named differently)
+strip :WAT,Na+,Cl-,K+,PA,PC,OL# Center the protein/ligand and fix periodic boundary issues
+autoimage # Save as PDB
+trajout ref_raw.pdb pdb
+run
